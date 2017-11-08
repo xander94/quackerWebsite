@@ -78,6 +78,7 @@ body {
     margin:0 auto;
 }
 #breakthrough{
+    font-size: 20px;
     margin:0 auto;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -269,7 +270,7 @@ body {
     color: white;
 }
 .jumbotron h3{
-    font-size: 17px;
+    font-size: 20px;
     color: white;
     margin-top: 40px;
 }
@@ -282,6 +283,7 @@ h2 {
     margin-top: 20px;
 }
 #slogan {
+    font-size: 20px;
     position: absolute;
     left: 50%;
     margin-right: -50%;
@@ -507,7 +509,7 @@ h4 {
 .containerSlogan{
     width:100%;
     text-align:center;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 #slogan {
     /*position: absolute;
