@@ -220,6 +220,38 @@
     //$("#anaText").fontcolor("black");
         }
     </script>
+        <script>
+        function onHoverGoog()
+        {
+            if(window.screen.availWidth > 700){
+            $("#googlePlay").attr('src', 'comingSoonGPClear.png');
+            }
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function offHoverGoog()
+        {
+            $("#googlePlay").attr('src', 'comingSoonGPClear.png');
+            
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
+        <script>
+        function onHoverApp()
+        {
+            if(window.screen.availWidth > 700){
+            $("#appstore").attr('src', 'downloadAppStoreHover.png');
+            }
+    //$("#anaText").fontcolor("dimgrey");
+        }
+
+        function offHoverApp()
+        {
+            $("#appstore").attr('src', 'downloadOnAppStore.png');
+            
+    //$("#anaText").fontcolor("black");
+        }
+    </script>
     <!--<script>
         function contactScroll(){
         window.scrollTo(0,document.body.scrollHeight);
@@ -319,6 +351,9 @@ function startVid() {
                 <h2 id="breakthrough">Anonymous. Unfiltered.</h2>
                 <!--<img id="anaphiteLogo" src="anaphiteHazeSlight.png" alt="Logo" style="width:200px;height:184px;"></img>-->
                 <img id="anaphiteLogo" src="QuackerMainWeb.png" alt="Logo" style="width:233px;height:300px;"></img>
+                <a href="https://itunes.apple.com/gb/app/quacker-anonymous/id1329812981?mt=8"><img id="appstore" src="downloadOnAppStore.png" alt="Download on the AppStore" onmouseover="onHoverApp();" onmouseout="offHoverApp();" style="width:150px;"></img></a>
+                <!--<a href="#">--><img id="googlePlay" src="comingSoonGPClear.png" alt="Get On Google Play" onmouseover="onHoverGoog();" onmouseout="offHoverGoog();" style="width:150px;"></img></a>
+                
             <!--<h3>Coming soon</h3>-->
         <!--<a href="#">
             <img id="learnMoreButton" src="learnMore.png" alt="Learn more" onmouseover="learnMoreHoverOn();" onmouseout="learnMoreHoverOff();" onclick="howVidPopUp();startVid();" style="width:129px;height:46px;"></img></a>-->
@@ -341,7 +376,7 @@ function startVid() {
 
         </ul>-->
         <div class="containerSlogan">
-        <h2 id="slogan">Coming soon</h2>
+        <!--<h2 id="slogan">Coming soon</h2>-->
         </div>
         </div>
         <div class="details">
