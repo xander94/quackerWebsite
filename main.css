@@ -292,6 +292,10 @@ h2 {
     transform: translate(-50%, -50%)
 
 }
+#mailClick2{
+    padding-top: 10px;
+}
+
 h4{
     color: #222;
     font-weight: 600;
